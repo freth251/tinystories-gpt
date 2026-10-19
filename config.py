@@ -1,0 +1,16 @@
+batch_size    = 64
+block_size    = 256
+n_embd        = 384
+n_head        = 6
+n_layer       = 6
+dropout       = 0.2
+max_iters     = 5000
+eval_interval = 500
+eval_iters    = 200
+grad_accum    = 4
+warmup_iters  = 500
+max_lr        = 6e-4
+min_lr        = 6e-5
+grad_clip     = 1.0
+resume        = False
+ckpt_path     = "ckpt.pt"
